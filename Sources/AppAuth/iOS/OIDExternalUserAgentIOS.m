@@ -29,7 +29,7 @@
 #import "OIDExternalUserAgentSession.h"
 #import "OIDExternalUserAgentRequest.h"
 
-#if !TARGET_OS_MACCATALYST
+#if !TARGET_OS_MACCATALYST && !TARGET_OS_VISION
 
 NS_ASSUME_NONNULL_BEGIN
 
